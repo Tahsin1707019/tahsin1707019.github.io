@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tahsin Mahmud | Machine Unlearning and Trustworthy NLP</title>
+  <meta name="description" content="Tahsin Mahmud is an M.Sc. student and graduate researcher at Koç University working on machine unlearning, backdoor defenses, and language model robustness.">
+  <meta name="theme-color" content="#f9f7fb">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="shell header-inner">
+      <a class="wordmark" href="#top"><span class="monogram" aria-hidden="true">TM</span>Tahsin Mahmud</a>
+      <nav aria-label="Main navigation">
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#background">Background</a>
+        <a class="nav-cv" href="tahsin-mahmud-cv.pdf">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="shell hero" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <p class="eyebrow">M.Sc. researcher at Koç University</p>
+        <h1 id="page-title">Tahsin<br>Mahmud</h1>
+        <p class="hero-lead">I study how to make language models more secure, with a focus on machine unlearning, backdoor defenses, and robustness.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="tahsin-mahmud-cv.pdf">View CV <span>PDF</span></a>
+          <a class="button button-secondary" href="https://scholar.google.com/citations?user=1WutjnMAAAAJ&amp;hl=en">Google Scholar</a>
+        </div>
+      </div>
+      <div class="hero-art">
+        <img src="machine-unlearning.png" width="1122" height="1402" fetchpriority="high" alt="Conceptual illustration of machine unlearning, showing a small gap in a lavender lattice.">
+      </div>
+    </section>
+
+    <section class="research section" id="research" aria-labelledby="research-title">
+      <div class="shell section-grid">
+        <div class="section-heading">
+          <h2 id="research-title">Research</h2>
+          <p><strong>Security, Privacy, and Data Engineering (SPADE) Research Lab</strong><br>Koç University, Istanbul</p>
+          <p>Advisor <a href="https://mysite.ku.edu.tr/emregursoy/">Dr. Mehmet Emre Gürsoy</a><br>TÜBİTAK Project 125E059</p>
+        </div>
+        <div class="research-items">
+          <article class="research-item">
+            <h3>Machine unlearning as a backdoor defense</h3>
+            <p>I benchmarked five unlearning methods on BERT classifiers across three datasets and four settings and proposed HRMU, a hybrid unlearning method. In the main experiments, all five methods reduced attack success rates to near zero and kept accuracy close to clean-model baselines. HRMU performed best in most cases.</p>
+          </article>
+          <article class="research-item">
+            <h3>Defending LLM classifiers</h3>
+            <p>I am evaluating the same unlearning methods as defenses for backdoored large language models on classification tasks. I measure how well they suppress backdoor behavior and preserve accuracy on clean inputs.</p>
+          </article>
+          <article class="research-item">
+            <h3>What remains after unlearning</h3>
+            <p>I am investigating whether models retain enough information to reconstruct backdoor triggers after unlearning. This work examines whether reduced attack success is accompanied by removal of the underlying information.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="shell section publication-section" id="publications" aria-labelledby="publication-title">
+      <h2 id="publication-title">Publications</h2>
+      <div class="publication-list">
+        <article class="publication">
+          <p class="publication-status">Published · 2026</p>
+          <div>
+            <h3><a href="https://doi.org/10.1007/s10791-025-09804-x">HateBertBN: a hybrid transformer based model for Bangla hate speech detection across various social contexts</a></h3>
+            <p class="citation">T. Azhar, <strong>T. Mahmud</strong>, M. A. Hasan, M. N. Uddin, and S.-B. Park<br><cite>Discover Computing</cite>, volume 29, article 15</p>
+            <p>I curated and preprocessed 65,251 Bengali comments and coordinated manual annotation. The published model reached a weighted F1 of 0.92 in binary detection and 0.90 in five-class classification.</p>
+          </div>
+        </article>
+        <article class="publication">
+          <p class="publication-status">Manuscript · 2026</p>
+          <div>
+            <h3>Backdoor Unlearning: Removing Backdoor Attack Effect from Language Models</h3>
+            <p class="citation"><strong>Tahsin Mahmud</strong> and Mehmet Emre Gürsoy</p>
+            <p>We study machine unlearning as a backdoor defense for text classifiers and evaluate how well different methods preserve clean accuracy.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects" aria-labelledby="projects-title">
+      <div class="shell">
+        <h2 id="projects-title">Selected projects</h2>
+        <div class="two-col">
+          <article class="project-card">
+            <p class="eyebrow">Graduate course project · Ongoing</p>
+            <h3>PACE-Net for single-lead ECG rhythm classification</h3>
+            <p>Designing a periodicity-aware classifier for wearable ECG devices, with a target of fewer than 15,000 parameters. The planned evaluation compares lightweight baselines and examines cross-dataset generalization.</p>
+          </article>
+          <article class="project-card">
+            <p class="eyebrow">Graduate course project · 2025–2026</p>
+            <h3>Lightweight CNNs for malware classification</h3>
+            <p>Benchmarked 29 lightweight CNN variants on Malimg and VirusMNIST. I led the VirusMNIST experiments in PyTorch and reached 92.63% accuracy.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="shell section background" id="background" aria-labelledby="background-title">
+      <h2 id="background-title">Education and teaching</h2>
+      <div class="two-col">
+        <div>
+          <h3 class="subheading">Education</h3>
+          <article class="history-item">
+            <p class="history-date">Expected June 2027</p>
+            <h4>M.Sc. in Computer Science and Engineering</h4>
+            <p>Koç University, Istanbul, Türkiye</p>
+          </article>
+          <article class="history-item">
+            <p class="history-date">February 2023</p>
+            <h4>B.Sc. in Computer Science and Engineering</h4>
+            <p>Khulna University of Engineering &amp; Technology, Bangladesh<br>Dean’s Award, 2022</p>
+          </article>
+        </div>
+        <div>
+          <h3 class="subheading">Teaching</h3>
+          <article class="history-item">
+            <p class="history-date">October 2025–present</p>
+            <h4>Graduate Teaching Assistant, Koç University</h4>
+            <p>Support instruction, assessment, and student guidance in Discrete Mathematics.</p>
+          </article>
+          <article class="history-item">
+            <p class="history-date">May 2023–September 2025</p>
+            <h4>Lecturer, East Delta University</h4>
+            <p>Taught programming and algorithms, supervised three undergraduate theses, and coached two ICPC Asia Dhaka Regional teams.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="shell footer-inner">
+      <div>
+        <h2>Get in touch</h2>
+        <a class="contact-link" href="mailto:tmahmud25@ku.edu.tr">tmahmud25@ku.edu.tr</a>
+      </div>
+      <div class="footer-links">
+        <a href="https://scholar.google.com/citations?user=1WutjnMAAAAJ&amp;hl=en">Google Scholar</a>
+        <a href="tahsin-mahmud-cv.pdf">CV (PDF)</a>
+        <a href="#top">Back to top</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
